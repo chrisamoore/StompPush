@@ -20,7 +20,7 @@
 
     $i = 0;
     while (1) {
-        $con->send("/topic/word", "Message $i");
+        $con->send("/topic/data", "Message $i");
         echo "Message $i";
         $i++;
         sleep(3);
